@@ -44,7 +44,7 @@ namespace Yandex.Geocoder
         private string BuildUrl()
         {
             var sb = new StringBuilder();
-            sb.Append("http://geocode-maps.yandex.ru/1.x/?");
+            sb.Append("https://geocode-maps.yandex.ru/1.x/?");
             sb.Append($"geocode={SearchQuery}");
             sb.Append($"&lang={LanguageCode}");
             sb.Append($"&results={Results}");
